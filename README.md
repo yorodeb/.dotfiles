@@ -1,6 +1,10 @@
-# .dotfiles-Enteries!
-Deathmaster's (.config) -- Configuration Directory.
-- NeoVim
-- Hyprland
-- Waybar
-- Wofi
+# .dotfiles-Enteries! ***:/***
+
+------------------------------------------------------------------------------------------------------------------------------------------
+*Deathmaster's Memories..*
+*Packages:*
+
++ NeoVim (Text-Editor)
++ Hyprland (Tiling Window-Manager)
++ Waybar (Status-Bar)
++ Wofi (Search-Bar)
