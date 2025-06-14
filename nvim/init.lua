@@ -14,6 +14,7 @@ option.expandtab = false
 option.cursorline = true
 option.splitbelow = true
 option.splitright = true
+option.clipboard = "unnamedplus"
 
 -- Plugin Manager
 
