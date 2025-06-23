@@ -39,12 +39,10 @@ vim.g.maplocalleader = "\\"
 
 require("lazy").setup({
   spec = {
-    -- add your plugins here
     {'windwp/nvim-autopairs',
     event = "InsertEnter",
     config = true},
-		{
-    "yorumicolors/yorumi.nvim", lazy = false, priority = 1000, 
+		{"yorumicolors/yorumi.nvim", lazy = false, priority = 1000, 
     config = function()
       vim.cmd([[colorscheme yorumi]])
     end,
