@@ -15,6 +15,7 @@ option.cursorline = true
 option.splitbelow = true
 option.splitright = true
 option.clipboard = "unnamedplus"
+option.termguicolors = true
 
 -- Plugin Manager
 
@@ -39,9 +40,9 @@ require("lazy").setup({
     {'windwp/nvim-autopairs',
     event = "InsertEnter",
     config = true},
-		{"yorumicolors/yorumi.nvim", lazy = false, priority = 1000, 
+		{"bluz71/vim-moonfly-colors", lazy = false, priority = 1000, 
     config = function()
-      vim.cmd([[colorscheme yorumi]])
+      vim.cmd([[colorscheme moonfly]])
     end,
   },
   },
