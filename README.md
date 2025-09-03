@@ -11,3 +11,7 @@
 ## Aliases to Remember:
 alias cx='history -c && clear'
 alias ct='sudo journalctl --vacuum-size=300M && sudo logrotate /etc/logrotate.conf'
+
+## Packages:
+- ttf-fira-code
+- ttf-fira-sans
