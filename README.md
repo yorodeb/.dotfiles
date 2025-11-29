@@ -4,7 +4,6 @@
 *Deathmaster's*
 
 + NeoVim (Text-Editor)
-+ Emacs (Operations)
 + Hyprland (Tiling Window-Manager)
 + Waybar (Status-Bar)
 
