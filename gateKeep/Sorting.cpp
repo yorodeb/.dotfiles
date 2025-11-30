@@ -16,10 +16,6 @@ int main(void){
 		unsortedArray[i] = valueOfElement--;
 	}
 
-	for(int i = 0; i < SIZE; i++) {
-		std::cout << unsortedArray[i] << " ";
-	}
-
 	std::vector<int> trialOne = unsortedArray;
 	std::vector<int> trialTwo = unsortedArray;
 	std::vector<int> trialThree = unsortedArray;
