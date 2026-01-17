@@ -33,9 +33,9 @@ int binarySearch(std::vector<int> &array, int target) {
 	while(leftBit <= rightBit) {
 		int midBit = leftBit + (rightBit - leftBit) / 2;
 
-		if(target == midBit) {
+		if(target == array[midBit]) {
 			return midBit;
-		} else if(target < midBit) {
+		} else if(target < array[midBit]) {
 			rightBit = midBit - 1;
 		} else {
 			leftBit = midBit + 1;
